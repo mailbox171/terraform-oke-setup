@@ -1,0 +1,26 @@
+module "oke" {
+  source                                =   "oracle-terraform-modules/oke/oci"
+  version                               =   "2.1.5"
+
+  compartment_id                        =   var.compartment_id
+  tenancy_id                            =   var.tenancy_id
+  user_id                               =   var.user_id
+
+  ssh_private_key_path                  =   var.ssh_private_key_path
+  ssh_public_key_path                   =   var.ssh_public_key_path
+
+  label_prefix                          =   var.label_prefix
+  region                                =   var.region
+
+  vcn_dns_label                         =   var.vcn_dns_label
+  vcn_name                              =   var.vcn_name
+
+  bastion_shape                         =   var.bastion_shape
+  bastion_timezone                      =   var.bastion_timezone
+
+  operator_shape                           =   var.operator_shape
+  operator_timezone                        =   var.operator_timezone
+
+  # add additional parameters for availability_domains, oke etc as you need
+
+}

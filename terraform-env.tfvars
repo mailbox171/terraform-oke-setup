@@ -1,19 +1,19 @@
 # Identity and access parameters
 
-api_fingerprint = "13:80:07:f2:0d:7c:73:3e:67:bd:0c:51:07:cb:89:31"
+api_fingerprint = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 api_private_key_path = "~/keys/oracleidentitycloudservice_francesco.costa-07-07-11-37.pem"
 
 region = "eu-frankfurt-1"
 
-tenancy_id = "ocid1.tenancy.oc1..aaaaaaaaxn3r3dh3lh5n5hyo6tkbtmwjvr4wzlahs3u76c4enhckxhy4kpaa"
+tenancy_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-user_id = "ocid1.user.oc1..aaaaaaaafuup33u6ecwfcxjj4cwtgwz4nnhq23ig7c6uznegzi5lcneg73lq"
+user_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 # general oci parameters
 
-compartment_id = "ocid1.compartment.oc1..aaaaaaaawb5bs2tee5hxwyor7evurum3voo6eq5ub73a3fpxvuv4q5zmckra"
+compartment_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 label_prefix = "dev"
 
